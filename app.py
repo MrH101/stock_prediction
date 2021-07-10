@@ -6,7 +6,7 @@ import tempfile
 import matplotlib.dates as mdates
 import tensorflow
 from tensorflow.keras.models import Sequential
-from keras.layers.core import Dense,Activation,Dropout
+from tensorflow.keras.layers.core import Dense,Activation,Dropout
 from tensorflow.keras.layers import LSTM
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error
